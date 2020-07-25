@@ -1,0 +1,248 @@
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Images/drop1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+
+nav {
+
+
+	height: 50px;
+	color: #fff;	
+	background-color:  rgba( 64, 144, 172, 0.80 );
+
+
+}
+
+.menu {
+
+	list-style-type: none;
+	display: -webkit-box;
+
+}
+nav ul > li.pointer1:hover {
+
+	background-color:  rgba( 64, 184, 182, 0.98);
+
+}
+
+
+
+
+
+ .pointer1{
+	
+	font-size: 1.15em;
+	line-height: 1.4;
+	cursor: pointer !important;
+
+}
+
+.search {
+
+	background-color: rgba( 64, 144, 172, 1 );
+}
+
+/* title */
+
+ .app-title {
+
+
+	font-family: "Comic Sans", "Comic Sans MS", cursive;
+	font-size: 1.3em;
+	justify-content: space-around;
+	display: inline-block;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+
+}
+
+#title {
+
+	float: right;
+
+
+}
+
+
+
+.action {
+
+	position: absolute;
+	right: 10px;
+}
+
+.action span:hover {
+
+	background-color:  rgba( 64, 184, 172, 0.98 );
+}
+
+/* section part2 */
+
+.board-menu {
+
+	position: fixed;
+	top: 50px;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	padding: 0 20px;
+	background-color: rgba( 128, 128, 128, 0.3 );
+	color: #fff;
+}
+
+ .pointer2{
+
+	padding: 5px;
+	font-size: 1.15em;
+	cursor: pointer !important;
+
+}
+
+.pointer2:hover {
+
+	background-color: rgba( 128, 128, 128, 0.6 );
+}
+
+.dot {
+
+	position: absolute;
+	right: 9.2%;
+	top: 12px;
+	align-items: center;
+}
+
+.container-fluid {
+
+	padding: 20px;
+	position: absolute;
+	top: 15%;
+	left: 25px;
+
+} 
+
+
+
+.pro {
+
+	padding: 25px;
+	position: relative;
+	top: 0;
+	border-radius: 2px;
+	 
+	background-color: rgba( 240, 240, 240, 0.9 );
+}
+
+.task-list-title {
+	
+	font-size: medium;
+	position: relative;
+	bottom: 20px;
+	color: gray;
+	cursor: pointer;
+}
+
+#com {
+
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-weight: bold;
+
+}
+
+.task {
+
+	background-color: #fff;
+	border-radius: 2px;
+	padding: 0 40px;
+	display: inline-flex;
+	position: absolute;
+
+}
+
+
+#foo {
+
+	position: absolute;
+	right: 10px;
+
+
+}
+
+#foo,.task:hover {
+
+	color: gray;
+	cursor: pointer;
+
+}
+
+#para1 {
+
+	color: black;
+	
+}
+
+#para1:hover {
+
+	color: gray;
+	cursor: pointer;
+
+}
+
+
+#set1 {
+
+	position: relative;
+	left: 2%;
+}
+
+#foo1:hover {
+
+	color: gray;
+	cursor: pointer;
+}
+
+#set2 {
+
+	position: relative;
+	left: 4%;
+}
+
+#set3 {
+
+	position: relative;
+	left: 6%;
+}
+
+#set4 {
+
+	position: relative;
+	left: 8%;
+}
+
+#set5 {
+
+	position: relative;
+	left: 10%;
+}
+
+#set6 {
+
+	position: relative;
+	left: 12%;
+}
