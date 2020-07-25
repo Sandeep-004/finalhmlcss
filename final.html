@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+	<section class="part1">
+		<nav class="navbar">
+			<ul class="menu">
+				<li class="pointer1"><i class="fas fa-home"></i></li>&nbsp;
+				<li class="pointer1"> <i class="boards fas fa-th-list"></i> Board</li>&nbsp;
+
+				<li class="pointer1"><input type="text" name="search" id="target" class="search" onclick="fun()"></li>
+				<div class="app-title" id="title">Tralala</div>
+				<div class="action">
+					<span class="pointer1">
+						<i class="fas fa-plus"></i>
+					</span>&nbsp;
+					<span class="pointer1">
+						<i class="fas fa-user"></i>	
+					</span>
+				</div>
+
+
+			</ul>
+
+
+		</nav>
+	</section>
+
+	<section class="part2">
+		<div class="board-container">
+			<div class="board-menu">
+				<div class="board-title">Frontend Training</div>
+				<div class="board-show-menu pointer2">
+					<i class="fas fa-ellipsis-v dot"></i>Show menu
+				</div>
+			</div>
+			
+			<div class="container-fluid">
+				<div class="row rol1">
+
+					<div class="col-sm-2 pro">
+						<h3 class="task-list-title">To Do</h3>
+						<span id="com">...</span>
+
+						<div class="task">
+							<span> Learn HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+							</div><br/><br/>
+
+
+							<div class="task">
+								<span> Learn CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+								</div><br/><br/>
+
+								<div class="task">
+									<span> Learn JavaScript 
+										<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+									</div><br/><br/>
+									<p id="para1">+ Add another card</p>
+								</div>
+
+
+								<div class="col-sm-2 pro" id="set1">
+									<h3 class="task-list-title">Doing</h3>
+									<span id="com">...</span>
+
+									<div class="task">
+										<span> Prepare resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+										</div><br/><br/><br/>
+
+
+										<div class="task">
+											<span> Enter a card for this card... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+											</div><br/><br/><br/>
+
+											<span> <button class="btn btn-dark">Add Card</button> 
+												<i class="fas fa-2x fa-times add-card-cancel" id="foo1"></i></i></span>
+
+											</div>
+
+
+											<div class="col-sm-2 pro" id="set2">
+												<h3 class="task-list-title">Testing/Verifying</h3>
+												<span id="com">...</span>
+
+												<div class="task">
+													<span>Twitter app frontend &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+														<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+													</div><br/><br/><br/>
+
+													<p id="para1">+ Add another card</p>
+												</div>
+
+												<div class="col-sm-2 pro" id="set3">
+													<h3 class="task-list-title">Deploying</h3>
+													<span id="com">...</span>
+
+													<div class="task">
+														<span>Twitter app backend &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+															<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+														</div><br/><br/><br/>
+
+														<p id="para1">+ Add another card</p>
+													</div>
+
+													<div class="col-sm-1 pro" id="set4">
+														<h3 class="task-list-title">Done</h3>
+														<span id="com">...</span>
+														<p id="para1">+ Add card</p>
+													</div>
+
+													<div class="col-sm-1 pro" id="set5">
+
+														<p id="para1">+ Add another card</p>
+													</div>
+
+													<div class="col-sm-2 pro" id="set6">
+
+														<div class="task">
+															<span> Enter a card for this card... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																<i class="task-edit fas fa-pencil-alt" id="foo"></i></span>
+															</div><br/><br/><br/>
+
+															<span> <button class="btn btn-dark">Add Card</button> 
+																<i class="fas fa-2x fa-times add-card-cancel" id="foo1"></i></i></span>
+
+															</div>
+
+
+														</div>
+													</div>
+												</div>
+
+
+											</section>
+										</body>
+
+										<script>
+
+											function fun() {
+
+												document.getElementById('target').style.backgroundColor = 'white';
+											}
+										</script>
+										</html>
